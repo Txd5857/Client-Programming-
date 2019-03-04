@@ -1,0 +1,169 @@
+body, h1,h2,h3,h4,h5{};
+h6{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.leftbg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gray;
+    min-height: 100%;
+    
+}
+
+.vertical {
+    position: absolute;
+    top: 25%;
+    color: white;
+    margin: auto;
+    
+}
+
+
+
+#mySidebar {
+    display:none;
+    padding-top:150px;
+    right:0;
+    z-index:2
+}
+
+.parallax1{
+    background-image: url("ggg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 700px; 
+    height: auto;
+}
+
+.parallax{
+    background-image: url("gg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 700px; 
+    height: auto;
+
+}
+#aboutbg{
+    width: 80%;
+    border: 1px solid black;
+}
+#start2 {
+    padding-top: 40px;
+    margin-left: 15%;
+}
+#undergrad {
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    background-color: gray;
+}
+
+#gac, #gactext{
+    background-color: gray;
+
+}
+#tabs1, #tabs2, #tabs3 {
+    padding-top:10%;
+}
+
+#graduate {
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+
+}
+#undergradtitle, #gradtitle  {
+    color: #F77707; !important
+    margin: 0 auto;
+    text-align: center;
+}
+
+#tabs,#gtabs {
+    width: 100%;
+}
+.w3-text-orange1 {color: #F77707;}
+
+.ugul{
+    width: 100%;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+ }
+
+
+
+.ugli {
+    list-style-type: none;  
+    width: 30%;
+    padding-left: 10%;
+    display:inline-block;
+    align-content: center;
+    
+   
+
+}
+
+.wrapper {
+    text-align: center;
+}
+
+
+
+.tabb {
+    display:block;
+    margin-top: -20%;
+}
+
+#test1{
+    margin-left: 40%;
+    font-size: 8vmin; 
+    color: orange;
+}
+
+#test{
+    margin-left: 40%;
+    font-size: 8vmin; 
+
+}
+.minors {
+    width: calc((100% - 24px * 3) / 4);
+	margin-top: 24px;
+	margin-left: 10%;
+	float: left;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+    opacity:0.9;
+}
+
+.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable.ui-resizable {
+    width: 55%!important;
+    left:30%!important;
+}
+
+.ui-dialog-content.ui-widget-content {
+	max-height: 400px!important;
+	overflow: auto;
+}
+
+.ui-state-active .ui-state-hover {
+    background-color: silver;
+    
+}
+@media (max-width:1000px) and (min-width:600px) {
+    #leftbar{display: none;}
+}

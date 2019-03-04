@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+h1 {
+    height: 75px;
+    width: 100vw;
+    background-color: yellow;
+    color: #152b01;
+    padding-top:10px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 3rem;
+}
+
+h2 {
+    padding-bottom: 1rem;
+}
+h4 {
+    padding-bottom: 5px;
+}
+
+#content {
+    width: 100%;
+    margin: auto;
+}
+
+#selects {
+    width: 25%;
+    background-color: red;
+    height: 575px;
+    float: left;
+    text-align: center;s
+
+}
+
+#yellowbg {
+  width: 40%;
+  background-color: yellow;
+  border: 1px solid black;
+  margin: 10px ;
+}
+
+.yellowbag {
+  width: 50%;
+  background-color: yellow;
+  border: 1px solid black;
+  margin: 10px auto;
+  margin-left: 10px;
+}
+
+#startbutton, #resetbutton {
+   width: 75%;
+   margin-bottom: 5px;
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-top: 5px;
+}
+
+#readytoguess {
+  width: 75%;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+
+}
+
+#form {
+    background-color: darkred;
+    color: white;
+    width: 25%;
+    height: 500px;
+    position: fixed;
+    top: 25%;
+    text-align: center;
+}
+
+#characterboard {
+    width: 75%;
+    background-color: blue;
+    height: 575px;
+    float: left;
+
+}
+
+#input{
+    height: 20px;
+}
+
+#selectsize {
+    width: 75%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.selectDiv {
+  width: 50%;
+  background-color: yellow;
+  border: 1px solid black;
+  margin: 5px auto;
+}
+
+#fl_name, #e_mail {
+  width:95%;
+  margin: 0 auto;
+}
+
+#totheleft {
+  float: left;
+}
+
+#totheright {
+  float: right;
+}
+.reply {
+  width: 50%;
+  background-color: yellow;
+  float: right;
+  border: 1px solid black;
+  margin: 10px auto;
+  display: block;
+}
+.selectMenus {
+    position: relative;
+    top: 33.3px;
+}
+
+select {
+    height: 33.3px;
+    width: 150px;
+}
